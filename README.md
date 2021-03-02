@@ -1,7 +1,7 @@
 # SOLID Principles Assignments
 
 ##Exercise 1:
-Examine the Text.java class in exercise1. 
+Examine the Text.ts class in exercise1. 
 If you find any violation of any SOLID principles, refactor it.
 
 ### Note to Mentor
@@ -10,12 +10,14 @@ The Text class is violating Single responsibility principle. It is doing too man
 * Formatting text
 * Printing text 
 You should break this class into smaller classes each responsible for doing one thing.
-####Solution
-* Text.java
-* TextFormatter.java
-* Printer.java
 
-##Exercise 2:
+#### Solution
+
+* Text.ts
+* TextFormatter.ts
+* Printer.ts
+
+## Exercise 2:
 Consider an insurance system that validates health insurance claims before approving one.
 The process is as follows:
 1. A customer of the company files a claim to the manager
@@ -34,7 +36,7 @@ The solution shows how to create an abstraction (Surveyor interface) and refacto
 
 
 
-##Exercise 3:
+## Exercise 3:
 You are developing an application that models a toy builder. Each toy will have a price and
 color. Some toys, such as a toy car or toy train can additionally move, while some toys, such as a
 toy plane can both move and fly.
@@ -50,14 +52,14 @@ As a result, in the exercise code, TrainToy and StationaryDollToy were forced to
 This violation can be addressed by segregating the interface into multiple ones.
 
 The solution shows the contract segregation into three interfaces:
-* `Toy.java`
-* `Flyable.java`
-* `Movable.java` 
+* `Toy.ts`
+* `Flyable.ts`
+* `Movable.ts` 
 
 Now Toy implementations can implement only those interfaces they require.
 
 
-##Exercise 4:
+## Exercise 4:
 Consider the scenario of an electric switch that turns a light bulb on or off. Implement the
 requirement with code
 
