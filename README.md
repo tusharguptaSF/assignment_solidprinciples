@@ -1,6 +1,6 @@
 # SOLID Principles Assignments
 
-##Exercise 1:
+## Exercise 1:
 Examine the Text.ts class in exercise1. 
 If you find any violation of any SOLID principles, refactor it.
 
